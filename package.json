@@ -1,0 +1,28 @@
+{
+  "name": "mnp-irio",
+  "version": "1.0.0",
+  "description": "An mnp irio structure.",
+  "main": ".",
+  "scripts": {
+    "test": "zoroaster test/spec",
+    "test-watch": "zoroaster test/spec --watch",
+    "prepublishOnly": "node scripts/prepublishOnly",
+    "postinstall": "node scripts/postinstall",
+    "postpublish": "node scripts/postpublish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/artdecocode/mnp-irio.git"
+  },
+  "keywords": [
+    "mnp-irio"
+  ],
+  "author": "Anton <anton@adc.sh>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artdecocode/mnp-irio/issues"
+  },
+  "homepage": "https://github.com/artdecocode/mnp-irio#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
